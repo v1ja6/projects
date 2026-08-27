@@ -1,0 +1,138 @@
+Screen {
+        align: center middle;
+    }
+    .player-box {
+        border: solid white;
+        padding: 1;
+        margin: 2;
+        width: 40;
+        height: auto;
+    }
+    #combat_log {
+        background: $panel;
+        border: tall $primary;
+        margin: 1 2;
+        height: 8;
+    }
+
+
+
+#button_attack_p1 {
+    text-align: center;
+    background: rgb(156, 24, 24);
+    color: $background;
+    width: 3fr;
+}
+#button_attack_p1:hover{
+    background: rgb(242, 5, 5);
+    width: 3fr;
+}
+
+#attack_train_p1 {
+    text-align: center;
+    background: rgb(24, 110, 156);
+    color: $background;
+    width: 1fr;
+}
+
+#attack_train_p1:hover{
+    background: rgb(5, 179, 242);
+    width: 1fr;
+}
+
+
+#button_heal_p1 {
+    text-align: center;
+    background: rgb(24, 156, 26);
+    color: $background;
+    width: 3fr;
+}
+#button_heal_p1:hover{
+    background: rgb(37, 242, 5);
+    width: 3fr;
+}
+
+#heal_train_p1 {
+    text-align: center;
+    background: rgb(24, 110, 156);
+    color: $background;
+    width: 1fr;
+}
+
+#heal_train_p1:hover{
+    background: rgb(5, 179, 242);
+    width: 1fr;
+}
+
+
+
+#button_attack_p2 {
+    text-align: center;
+    background: rgb(156, 24, 24);
+    color: $background;
+    width: 3fr;
+}
+#button_attack_p2:hover{
+    background: rgb(242, 5, 5);
+    width: 3fr;
+}
+
+#attack_train_p2 {
+    text-align: center;
+    background: rgb(24, 110, 156);
+    color: $background;
+    width: 1fr;
+}
+
+#attack_train_p2:hover{
+    background: rgb(5, 179, 242);
+    width: 1fr;
+}
+
+
+#heal_train_p2 {
+    text-align: center;
+    background: rgb(24, 110, 156);
+    color: $background;
+    width: 1fr;
+}
+
+#heal_train_p2:hover{
+    background: rgb(5, 179, 242);
+    width: 1fr;
+}
+
+
+#button_heal_p2 {
+    text-align: center;
+    background: rgb(24, 156, 26);
+    color: $background;
+    width: 3fr;
+}
+#button_heal_p2:hover{
+    background: rgb(37, 242, 5);
+    width: 3fr;
+}
+
+
+.player-box Horizontal {
+    height: auto; 
+}
+
+
+#p1_health .bar--bar {
+    color: rgb(5, 179, 242);
+}
+
+#p2_health .bar--bar {
+    color: rgb(242, 5, 5);
+}
+
+
+#level_bar_p1 .bar--bar {
+    color: rgb(255, 205, 5);
+}
+
+#level_bar_p2 .bar--bar {
+    color: rgb(255, 205, 5);
+}
